@@ -1,0 +1,22 @@
+
+
+
+.nav{
+   ul{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     list-style: none;
+     margin: 0;
+     padding: 20px;
+   }
+
+  li{
+    margin-right: 15px;
+
+    a.active{
+      font-weight: bold;
+      color: red;
+    }
+  }
+}
